@@ -21,6 +21,19 @@ a {
 	height: 50px;
 	text-align: right;
 	background-color: #091125;
+	visibility: visible;
+}
+
+.mobile-bar {
+	visibility: hidden;
+}
+
+.mobile-menu {
+	visibility: hidden;
+}
+
+.hamburger {
+	visibility: hidden;
 }
 
 .menu nav {
@@ -140,17 +153,121 @@ a {
 	background: url("images/fast-shop.png");
 	background-size: contain;
     background-repeat: no-repeat;
-    background-position: center center; 
+    background-position: center center;
 }
 
 .camicado-logo {
 	background: url("images/camicado.png");
 	background-size: contain;
     background-repeat: no-repeat;
-    background-position: center center; 
+    background-position: center center;
 }
 
+/* MOBILE */
 
+@media only screen and (max-width: 400px) {
+  .names-image {
+   	width: 100%;
+   	object-fit: contain;
+  }
+
+  .menu {
+  	visibility: hidden;
+  }
+
+  .mobile-menu {
+  	visibility: visible;
+  }
+
+  .mobile-bar {
+  	height: 50px;
+  	width: 100%;
+  	visibility: visible;
+  	position: fixed;
+  	background-color: #091125;
+  	z-index: 98;
+  }
+
+  .hamburger {
+  	  visibility: visible;
+	  cursor: pointer;
+	  position: absolute;
+	  width: 48px;
+	  height: 48px;
+	  transition: all 0.25s;
+	  z-index: 99;
+	}
+
+	.hamburger__top-bun,
+	.hamburger__bottom-bun {
+	  content: '';
+	  display: block;
+	  position: absolute;
+	  left: 15px;
+	  width: 18px;
+	  height: 1px;
+	  background: #fff;
+	  transform: rotate(0);
+	  transition: all 0.25s;
+	}
+
+	.hamburger:hover [class*="-bun"] {
+	  background: #999;
+	}
+
+	.hamburger__top-bun {
+	  top: 23px;
+	  transform: translateY(-3px);
+	}
+
+	.hamburger__bottom-bun {
+	  bottom: 23px;
+	  transform: translateY(3px);
+	}
+
+	.open {
+	  /*transform: rotate(90deg);*/
+	}
+
+	.open .hamburger__top-bun {
+	  transform:
+	    rotate(45deg)
+	    translateY(0px);
+	}
+
+	.open .hamburger__bottom-bun {
+	  transform:
+	    rotate(-45deg)
+	    translateY(0px);
+	}
+
+	.menu-open {
+		height: 100vh !important;
+		display: block !important;
+		transition: 1s;
+	}
+
+	.mobile-menu {
+		background-color: #091125;
+		height: 0px;
+		padding-top: 70px;
+		position: fixed;
+		width: 100%;
+		display: none;
+	}
+
+	.mobile-menu-item {
+		margin: 20px;
+		color: #fff;
+		display: none;
+		border-bottom: solid 1px white;
+	}
+
+	.menu-open .mobile-menu-item {
+		display: block;
+	}
+
+}
 
 
 
