@@ -290,6 +290,10 @@ a {
 	  	background-size: contain;
 	}
 
+	.gifts-section {
+		line-height: normal;
+	}
+
 }
 
 
