@@ -1,0 +1,174 @@
+html {
+	background-color: #091125;
+}
+
+body {
+	font-family: "Avenir-Roman";
+	margin: 0;
+	color: #091125;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.menu {
+	font-size: 18pt;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 50px;
+	text-align: right;
+	background-color: #091125;
+}
+
+.menu nav {
+	display: inline-block;
+	padding-right: 12px;
+}
+
+.menu-item {
+	vertical-align: middle;
+	margin: 12px;
+	display: block;
+	float: left;
+	text-decoration: none;
+	color: #fff;
+}
+
+.content-title {
+	font-size: 40pt;
+	vertical-align: middle;
+	height: 100%;
+	width: 100%;
+	display: table;
+	color: #fff;
+}
+
+#names-title {
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.names-image {
+ 	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
+}
+
+
+.centered {
+	height: 100%;
+	width: 100%;
+	padding: 25% 0;
+}
+
+.centered-title {
+	font-weight: bold;
+	font-size: 40pt;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.centered-subtitle {
+	font-weight: lighter;
+	font-size: 20pt;
+	text-align: center;
+}
+
+.slide-section {
+	width: 100%;
+	height: 100vh;
+}
+
+.white {
+	background-color: #fff;
+}
+
+.place {
+	background: url("images/church.jpg");
+	background-size: cover;
+}
+
+.overlay {
+	width: 100%;
+	height: 100%;
+	background-color: #fffc;
+}
+
+.top-left-title {
+	font-weight: bold;
+	font-size: 40pt;
+	padding-top: 70px;
+	padding-left: 50px;
+}
+
+.top-left-title a:hover {
+	color: #203450;
+}
+
+.top-left-subtitle {
+	font-weight: lighter;
+	font-size: 20pt;
+	padding-top: 10px;
+	padding-left: 50px;
+}
+
+.white-title {
+	color: #fff;
+}
+
+.gifts-section {
+	text-align: center;
+	vertical-align: middle;
+	line-height: 100vh;
+	height: 100%;
+}
+
+.gift-link {
+	width: 300px;
+	height: 300px;
+	max-width: 50%;
+	display: inline-block;
+	margin: 0 100px;
+}
+
+.fast-logo {
+	background: url("images/fast-shop.png");
+	background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+.camicado-logo {
+	background: url("images/camicado.png");
+	background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
