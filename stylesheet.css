@@ -293,8 +293,18 @@ a {
 	.gifts-section {
 		line-height: normal;
 	}
-
 }
+
+	.account-gift {
+		height: 300px;
+		color: #fff;
+		text-align: center;
+		line-height: normal;
+		max-width: 50%;
+		/*display: inline-block;*/
+		margin: 0 auto;
+	}
+
 
 
 
